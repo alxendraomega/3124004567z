@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/StudentsSystem/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/SystemStudent/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="primary-source" />
+        <module name="servlet" />
+        <module name="ear" />
+        <module name="ejbs" />
+        <module name="logging" />
+        <module name="studentssystem" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ear" target="1.5" />
+      <module name="ejbs" target="1.8" />
+      <module name="logging" target="1.8" />
+      <module name="primary-source" target="1.8" />
+      <module name="projects" target="1.5" />
+      <module name="servlet" target="1.8" />
+      <module name="servlets" target="1.5" />
+      <module name="StudentsSystem" target="1.8" />
+      <module name="studentssystem" target="21" />
+      <module name="StudentSystem" target="21" />
+      <module name="Studentsystem (1)" target="16" />
+      <module name="SystemStudent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
